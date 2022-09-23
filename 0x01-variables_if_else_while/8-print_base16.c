@@ -13,11 +13,13 @@ h = '0';
 while (h <= '9')
 {
 putchar (h);
+h++;
 }
 h = 'a';
 while (h <= 'f')
 {
 putchar (h);
+h++;
 }
 putchar ('\n');
 return (0);
