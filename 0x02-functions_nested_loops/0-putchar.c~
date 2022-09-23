@@ -1,0 +1,19 @@
+#include "main.h"
+/**
+ *main - prints some words followed by a line
+ *
+ *Return: Always 0
+ */
+
+int main(void)
+{
+ch *c;
+
+while (*c)
+{
+_putchar(*c);
+c++;
+}
+_putchar ('\n');
+return (0);
+}
